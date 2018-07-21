@@ -17,22 +17,22 @@ public class IsPalindromTest {
     }
 
     @Test
-    public void checkIsPalindrom(){
+    public void checkIsPalindrom() {
         assertEquals(true, IsPalindrom.isPalindrom(str1));
     }
 
     @Test
-    public void forPalindromReturnFalse(){
+    public void forNotPalindromReturnFalse() {
         assertEquals(false, IsPalindrom.isPalindrom(str2));
     }
 
     @Test(expected = InvalidParameterException.class)
-    public void forPalindromReturnInvalidParameterException(){
+    public void forPalindromReturnInvalidParameterException() {
         IsPalindrom.isPalindrom(null);
     }
 
     @Test(expected = InvalidParameterException.class)
-    public void forPalindromReturnInvalidParameterExceptionExmpty(){
+    public void forEmptyStringReturnInvalidParameterException() {
         IsPalindrom.isPalindrom("");
     }
 

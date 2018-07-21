@@ -11,18 +11,18 @@ public class IsPalindrom {
 
     public static boolean isPalindrom(String s) {
 
-        if (s == null || s == "") {
+        if (s == null || s.equals("")) {
             throw new InvalidParameterException();
         } else {
-            boolean wynik = false;
+            boolean result = false;
 
             for (int i = 0; i < s.length(); i++) {
 
-                if (s.charAt(i) == s.charAt(s.length() - 1 - i)) wynik = true;
-                else wynik = false;
+                if (s.charAt(i) == s.charAt(s.length() - 1 - i)) result = true;
+                else return false;
 
             }
-            return wynik;
+            return result;
         }
     }
 }
