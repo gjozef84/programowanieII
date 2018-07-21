@@ -24,5 +24,14 @@ public class IsPalindromTest {
         assertEquals(false, IsPalindrom.isPalindrom(str2));
     }
 
+    @Test(expected = NullPointerException.class)
+    public void forPalindromReturnNullPointerEx(){
+        IsPalindrom.isPalindrom(null);
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void forPalindromReturnNullPointerExExmpty(){
+        IsPalindrom.isPalindrom("");
+    }
 
 }

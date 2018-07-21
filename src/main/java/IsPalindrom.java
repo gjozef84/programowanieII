@@ -3,19 +3,24 @@ public class IsPalindrom {
     public static void main(String[] args) {
         String str = "iwi";
 
-        if (isPalindrom(str)) System.out.println(str+" jest palindromem");
+        if (isPalindrom(str)) System.out.println(str + " jest palindromem");
         else System.out.println(str + " nie jest palindromem");
     }
 
-    public static boolean isPalindrom(String s){
-        boolean wynik=false;
+    public static boolean isPalindrom(String s) {
 
-        for (int i=0; i < s.length(); i++){
+        if (s == null || s == "") {
+            throw new NullPointerException();
+        } else {
+            boolean wynik = false;
 
-                if(s.charAt(i)==s.charAt(s.length()-1-i)) wynik=true;
-                else wynik=false;
+            for (int i = 0; i < s.length(); i++) {
 
+                if (s.charAt(i) == s.charAt(s.length() - 1 - i)) wynik = true;
+                else wynik = false;
+
+            }
+            return wynik;
         }
-        return wynik;
     }
 }
