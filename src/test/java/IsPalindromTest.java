@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.security.InvalidParameterException;
+
 import static org.junit.Assert.assertEquals;
 
 public class IsPalindromTest {
@@ -24,13 +26,13 @@ public class IsPalindromTest {
         assertEquals(false, IsPalindrom.isPalindrom(str2));
     }
 
-    @Test(expected = NullPointerException.class)
-    public void forPalindromReturnNullPointerEx(){
+    @Test(expected = InvalidParameterException.class)
+    public void forPalindromReturnInvalidParameterException(){
         IsPalindrom.isPalindrom(null);
     }
 
-    @Test(expected = NullPointerException.class)
-    public void forPalindromReturnNullPointerExExmpty(){
+    @Test(expected = InvalidParameterException.class)
+    public void forPalindromReturnInvalidParameterExceptionExmpty(){
         IsPalindrom.isPalindrom("");
     }
 

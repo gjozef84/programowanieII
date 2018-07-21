@@ -1,3 +1,5 @@
+import java.security.InvalidParameterException;
+
 public class IsPalindrom {
 
     public static void main(String[] args) {
@@ -10,7 +12,7 @@ public class IsPalindrom {
     public static boolean isPalindrom(String s) {
 
         if (s == null || s == "") {
-            throw new NullPointerException();
+            throw new InvalidParameterException();
         } else {
             boolean wynik = false;
 
