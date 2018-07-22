@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2454709b-d057-40b5-893f-da9be7e1bc4b" name="Default" comment="">
+    <list default="true" id="337c179d-cc27-4804-aaec-2bbf22f5e67a" name="Default" comment="All tests in StringCalculator is GREEN :-)">
+      <change afterPath="$PROJECT_DIR$/src/stringcalculator/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/programowanieII.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IsPalindrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IsPalindrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IsPalindromTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IsPalindromTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stringcalculator/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stringcalculator/StringCalculator.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,31 +21,49 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IsPalindromTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/IsPalindromTest.java">
+    <leaf>
+      <file leaf-file-name="StringCalculatorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stringcalculator/StringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="1481">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
               <folding>
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsPalindrom.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IsPalindrom.java">
+      <file leaf-file-name="StringCalculator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/stringcalculator/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="91">
+              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matcher.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/regex/Matcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="1778" column="17" selection-start-line="1778" selection-start-column="17" selection-end-line="1778" selection-end-column="17" />
+              <folding>
+                <element signature="e#68935#68936#0" expanded="true" />
+                <element signature="e#68996#68997#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/stringcalculator/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="289">
+                <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -49,7 +73,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -64,10 +88,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/IsPalindrom.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IsPalindromTest.java" />
+        <option value="$PROJECT_DIR$/src/test/IsPalindromTest.java" />
+        <option value="$PROJECT_DIR$/src/isPalindrom/IsPalindromTest.java" />
+        <option value="$PROJECT_DIR$/src/isPalindrom/IsPalindrom.java" />
+        <option value="$PROJECT_DIR$/src/stringcalculator/src/test/java/StringCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/stringcalculator/StringCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/stringcalculator/Readme.md" />
+        <option value="$PROJECT_DIR$/src/stringcalculator/StringCalculator.java" />
       </list>
     </option>
   </component>
@@ -91,62 +118,68 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="programowanieII" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programowanieII" type="462c0819:PsiDirectoryNode" />
+              <item name="programowanieII_21072018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programowanieII_21072018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="programowanieII" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programowanieII" type="462c0819:PsiDirectoryNode" />
+              <item name="programowanieII_21072018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programowanieII_21072018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="programowanieII" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programowanieII" type="462c0819:PsiDirectoryNode" />
+              <item name="programowanieII_21072018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programowanieII_21072018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="isPalindrom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="programowanieII" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programowanieII" type="462c0819:PsiDirectoryNode" />
+              <item name="programowanieII_21072018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programowanieII_21072018" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="programowanieII" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programowanieII" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="programowanieII" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programowanieII" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stringcalculator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="isPalindrom" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="isPalindrom" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Grzesiek\IdeaProjects\programowanieII_21072018\src\isPalindrom" />
+      <recent name="C:\Users\Grzesiek\IdeaProjects\programowanieII_21072018\src" />
+      <recent name="C:\Users\Grzesiek\IdeaProjects\programowanieII_21072018\isPalindrom\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,23 +193,98 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IsPalindromTest">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest">
     <configuration name="IsPalindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IsPalindrom" />
-      <module name="programowanieII" />
+      <module name="programowanieII_21072018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="IsPalindromTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="programowanieII" />
+      <module name="programowanieII_21072018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="isPalindrom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsPalindromTest" />
+      <option name="PACKAGE_NAME" value="isPalindrom" />
+      <option name="MAIN_CLASS_NAME" value="isPalindrom.IsPalindromTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="programowanieII_21072018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stringcalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="stringcalculator" />
+      <option name="MAIN_CLASS_NAME" value="stringcalculator.StringCalculatorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StringCalculatorTest.String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="programowanieII_21072018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stringcalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="stringcalculator" />
+      <option name="MAIN_CLASS_NAME" value="stringcalculator.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StringCalculatorTest.valuesBiggerThen1000Ignored" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="programowanieII_21072018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stringcalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="stringcalculator" />
+      <option name="MAIN_CLASS_NAME" value="stringcalculator.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="valuesBiggerThen1000Ignored" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -227,9 +335,15 @@
     <list>
       <item itemvalue="Application.IsPalindrom" />
       <item itemvalue="JUnit.IsPalindromTest" />
+      <item itemvalue="JUnit.StringCalculatorTest" />
+      <item itemvalue="JUnit.StringCalculatorTest.valuesBiggerThen1000Ignored" />
+      <item itemvalue="JUnit.StringCalculatorTest.String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem" />
+        <item itemvalue="JUnit.StringCalculatorTest.valuesBiggerThen1000Ignored" />
         <item itemvalue="JUnit.IsPalindromTest" />
         <item itemvalue="Application.IsPalindrom" />
       </list>
@@ -240,72 +354,98 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2454709b-d057-40b5-893f-da9be7e1bc4b" name="Default" comment="" />
-      <created>1532157482661</created>
+      <changelist id="337c179d-cc27-4804-aaec-2bbf22f5e67a" name="Default" comment="" />
+      <created>1532292801107</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532157482661</updated>
-      <workItem from="1532157484185" duration="2081000" />
-      <workItem from="1532159904744" duration="3165000" />
+      <updated>1532292801107</updated>
+      <workItem from="1532292804099" duration="2998000" />
     </task>
-    <task id="LOCAL-00001" summary="Add tests to edqe cases">
-      <created>1532160820079</created>
+    <task id="LOCAL-00001" summary="Reorganization in repo">
+      <created>1532293960365</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1532160820079</updated>
+      <updated>1532293960365</updated>
     </task>
-    <task id="LOCAL-00002" summary="change Exceptions">
-      <created>1532161854000</created>
+    <task id="LOCAL-00002" summary="Refactor StringCalculator">
+      <created>1532294357388</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1532161854000</updated>
+      <updated>1532294357388</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IsPalindromTest - 2018.07.21 at 10h 11m 29s.xml">
-      <configuration name="IsPalindromTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_valuesBiggerThen1000Ignored - 2018.07.22 at 23h 18m 21s.xml">
+      <configuration name="StringCalculatorTest.valuesBiggerThen1000Ignored" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2018.07.22 at 23h 18m 30s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem - 2018.07.22 at 23h 28m 55s.xml">
+      <configuration name="StringCalculatorTest.String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem - 2018.07.22 at 23h 32m 05s.xml">
+      <configuration name="StringCalculatorTest.String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem - 2018.07.22 at 23h 32m 55s.xml">
+      <configuration name="StringCalculatorTest.String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem - 2018.07.22 at 23h 35m 38s.xml">
+      <configuration name="StringCalculatorTest.String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem - 2018.07.22 at 23h 36m 42s.xml">
+      <configuration name="StringCalculatorTest.String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem - 2018.07.22 at 23h 37m 53s.xml">
+      <configuration name="StringCalculatorTest.String_With_Defined_Pool_Of_Separators_As_Char_for_numbers_in_input_returns_sumOfThem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2018.07.22 at 23h 38m 27s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2018.07.22 at 23h 41m 20s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5246000" />
+    <option name="totallyTimeSpent" value="2998000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32857144" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14055637" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="SonarQube" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32861635" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32861635" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="SonarQube" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,54 +455,81 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add tests to edqe cases" />
-    <MESSAGE value="change Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Exceptions" />
+    <MESSAGE value="Reorganization in repo" />
+    <MESSAGE value="Refactor StringCalculator" />
+    <MESSAGE value="All tests in StringCalculator is GREEN :-)" />
+    <option name="LAST_COMMIT_MESSAGE" value="All tests in StringCalculator is GREEN :-)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/gjozefUtils.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/isPalindrom/IsPalindromTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="221">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/newClas.java">
+    <entry file="file://$PROJECT_DIR$/src/isPalindrom/IsPalindromTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IsPalindrom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IsPalindromTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="187">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/isPalindrom/IsPalindrom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1003">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stringcalculator/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="289">
+            <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="1778" column="17" selection-start-line="1778" selection-start-column="17" selection-end-line="1778" selection-end-column="17" />
+          <folding>
+            <element signature="e#68935#68936#0" expanded="true" />
+            <element signature="e#68996#68997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stringcalculator/StringCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1481">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stringcalculator/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -419,7 +586,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>programowanieII</last-edited>
+          <last-edited>programowanieII_21072018</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -444,6 +611,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
