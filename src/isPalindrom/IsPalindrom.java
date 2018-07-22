@@ -1,3 +1,5 @@
+package isPalindrom;
+
 import java.security.InvalidParameterException;
 
 public class IsPalindrom {
