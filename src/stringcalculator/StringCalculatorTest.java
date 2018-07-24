@@ -69,7 +69,7 @@ public class StringCalculatorTest {
     public void String_With_Negatives_for_numbers_in_input_returns_sumOfThem() {
         String input = "//;\n1;2;-2;-5";
         expectedException.expect(IllegalArgumentException.class);
-        expectedException.expectMessage("negatives not allowed: [-2, -5]");
+        expectedException.expectMessage("Negatives not allowed: [-2, -5]");
         calculator.Sum(input);
     }
 

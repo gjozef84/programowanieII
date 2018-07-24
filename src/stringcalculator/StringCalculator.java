@@ -11,46 +11,43 @@ import java.util.regex.Pattern;
 public class StringCalculator {
     private int start = 0;
 
-
     public int Sum(String input) {
-
-        String[] numbers = getValues(input);
 
         if (input.equals(""))
             return 0;
         else if (input.length() >= 3) {
-            return sumNumbers(numbers);
-        } else {
-            return Integer.parseInt(input);
+            return addNumbers(getValues(input));
         }
+        else return Integer.parseInt(input);
     }
 
-    private int sumNumbers(String[] inputText) {
-        int sum = 0;
+    private int addNumbers(String[] inputNumbers) {
+        int sumNumbers = 0;
 
-        for (int i = 0; i < inputText.length; i++) {
-            if (!checkNegatives(inputText, start)) {
-                if (Integer.parseInt(inputText[i]) < 1000)
-                    sum += Integer.parseInt(inputText[i]);
+        for (String inputNumber : inputNumbers) {
+            if (!checkNegatives(inputNumbers, start)) {
+                if (Integer.parseInt(inputNumber) < 1000)
+                    sumNumbers += Integer.parseInt(inputNumber);
             }
         }
-        return sum;
+        return sumNumbers;
     }
 
 
-    public boolean checkNegatives(String[] inputText, int begin) {
+    public boolean checkNegatives(String[] inputNumbers, int begin) {
 
         ArrayList<String> tabNegatives = new ArrayList<String>();
         int j = 0;
-        for (int i = begin; i < inputText.length; i++) {
-            if (Integer.parseInt(inputText[i]) < 0) {
-                tabNegatives.add(inputText[i]);
+
+        for (int i = begin; i < inputNumbers.length; i++) {
+            if (Integer.parseInt(inputNumbers[i]) < 0) {
+                tabNegatives.add(inputNumbers[i]);
                 j++;
             }
         }
 
         if (tabNegatives.size() > 0) {
-            throw new IllegalArgumentException("negatives not allowed: " + tabNegatives);
+            throw new IllegalArgumentException("Negatives not allowed: " + tabNegatives);
         } else return false;
     }
 
@@ -81,8 +78,3 @@ public class StringCalculator {
         }
     }
 }
-
-
-
-
-
