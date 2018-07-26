@@ -1,17 +1,19 @@
 package isPalindrom;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.security.InvalidParameterException;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class IsPalindromTest {
 
     private IsPalindrom isPalindrom;
-    private String str1 = "iwi";
-    private String str2 = "kiwi";
+    //private String str1 = "iwi";
+    //private String str2 = "kiwi";
 
     @Before
     public void setup() {
@@ -19,13 +21,18 @@ public class IsPalindromTest {
     }
 
     @Test
-    public void checkIsPalindrom() {
-        assertEquals(true, IsPalindrom.isPalindrom(str1));
+    public void when_IsPalindrom_return_True() {
+        Assert.assertTrue(IsPalindrom.isPalindrom("aba"));
     }
 
     @Test
-    public void forNotPalindromReturnFalse() {
-        assertEquals(false, IsPalindrom.isPalindrom(str2));
+    public void when_IsPalindrom_Return_False() {
+        assertFalse(IsPalindrom.isPalindrom("abc"));
+    }
+
+    @Test
+    public void when_4_letters_IsPalindrom_Return_True() {
+        Assert.assertTrue(IsPalindrom.isPalindrom("abba"));
     }
 
     @Test(expected = InvalidParameterException.class)

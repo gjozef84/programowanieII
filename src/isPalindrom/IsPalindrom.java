@@ -4,27 +4,27 @@ import java.security.InvalidParameterException;
 
 public class IsPalindrom {
 
-    public static void main(String[] args) {
-        String str = "iwi";
+    public static boolean isPalindrom(String input) {
 
-        if (isPalindrom(str)) System.out.println(str + " jest palindromem");
-        else System.out.println(str + " nie jest palindromem");
-    }
-
-    public static boolean isPalindrom(String s) {
-
-        if (s == null || s.equals("")) {
+        if (input == null || input.equals("")) {
             throw new InvalidParameterException();
         } else {
-            boolean result = false;
+            int leftIndex=0;
+            int rightIndex=input.length() - 1;
 
-            for (int i = 0; i < s.length(); i++) {
+            while(true){
 
-                if (s.charAt(i) == s.charAt(s.length() - 1 - i)) result = true;
-                else return false;
+                char left = input.charAt(leftIndex);
+                char right = input.charAt(rightIndex);
+
+                if(left!=right) return false;
+
+                leftIndex++;
+                rightIndex--;
+
+                if(leftIndex>rightIndex) return true;
 
             }
-            return result;
         }
     }
 }
