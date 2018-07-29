@@ -54,17 +54,7 @@ public class StringCalculator {
 
     public String[] getValues(String text) {
         if (text.startsWith("//[")) {
-            Matcher m = Pattern.compile("//\\[(.*)\\]\n(.*)").matcher(text);
-            m.matches();
-            String[] separators = m.group(1).split("\\]\\[");
-            String values = m.group(2);
-            String separator = "";
-            for (int i = 0; i < separators.length; i++) {
-                if (i < separators.length - 1) separator += separators[i] + "|";
-                else separator += separators[i];
-            }
-
-            return values.split(separator);
+            return hasMultipleCustomSeparators(text);
 
         } else if (text.startsWith("//")) {
             Matcher m = Pattern.compile("//(.*)\n(.*)").matcher(text);
@@ -76,5 +66,19 @@ public class StringCalculator {
             String[] values = text.split(",|\n");
             return values;
         }
+    }
+
+    private String[] hasMultipleCustomSeparators(String text) {
+        Matcher m = Pattern.compile("//\\[(.*)\\]\n(.*)").matcher(text);
+        m.matches();
+        String[] separators = m.group(1).split("\\]\\[");
+        String values = m.group(2);
+        String separator = "";
+        for (int i = 0; i < separators.length; i++) {
+            if (i < separators.length - 1) separator += separators[i] + "|";
+            else separator += separators[i];
+        }
+
+        return values.split(separator);
     }
 }
