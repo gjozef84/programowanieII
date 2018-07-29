@@ -15,17 +15,17 @@ public class StringCalculator {
 
         if (input.equals(""))
             return 0;
-        else if (input.length() >= 3) {
+        else {
             return addNumbers(getValues(input));
         }
-        else return Integer.parseInt(input);
+        //else return Integer.parseInt(input);
     }
 
     private int addNumbers(String[] inputNumbers) {
         int sumNumbers = 0;
 
         for (String inputNumber : inputNumbers) {
-            if (!checkNegatives(inputNumbers, start)) {
+            if (!throwOnNegatives(inputNumbers, start)) {
                 if (Integer.parseInt(inputNumber) < 1000)
                     sumNumbers += Integer.parseInt(inputNumber);
             }
@@ -34,7 +34,7 @@ public class StringCalculator {
     }
 
 
-    public boolean checkNegatives(String[] inputNumbers, int begin) {
+    public boolean throwOnNegatives(String[] inputNumbers, int begin) {
 
         ArrayList<String> tabNegatives = new ArrayList<String>();
         int j = 0;
